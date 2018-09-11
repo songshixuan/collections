@@ -1,0 +1,19 @@
+p {
+
+}
+
+p.novel01 {
+    color: maroon;
+    background-color: gainsboro;
+}
+
+h2, h3 {
+    font-family: sans-serif;
+    color: gray;
+    border-bottom: 1px solid black;
+}
+
+.novel02 {
+    color: green;
+    background-color: darkkhaki;
+}
