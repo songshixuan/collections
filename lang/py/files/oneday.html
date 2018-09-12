@@ -3,18 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>one day</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<form id="form1" enctype='application/json'  method='get' action="http://www.daqibigflag.top:8080/hello">
-    <input name='name' value='Bender'>
-    <select name='hind'>
-        <option selected>Bitable</option>
-        <option>Kickable</option>
-    </select>
-    <input type='checkbox' name='shiny' checked>
-</form>
+<div>
+    <form id="form1" enctype='application/json' method='post' action="http://www.daqibigflag.top:8080/day">
+        shoot:<br>
+        <select name='shoot'>
+            <option selected disabled>Choose here</option>
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </select><br>
 
-<button type="submit" form="form1" value="Submit">Submit</button>
+        sport:<br>
+        <select name='sport'>
+            <option selected disabled>Choose here</option>
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </select><br>
+
+
+        sleep before 11:30<br>
+        <select name='sleep'>
+            <option selected disabled>Choose here</option>
+            <option value="1">yes</option>
+            <option value="0">no</option>
+        </select><br>
+    </form>
+    <button type="submit" form="form1" value="Submit">Submit</button>
+</div>
+
 
 </body>
 </html>
